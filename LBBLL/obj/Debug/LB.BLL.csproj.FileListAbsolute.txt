@@ -1,0 +1,5 @@
+E:\技术学习\CAD\DEMO\LineBudget\LBBLL\bin\Debug\LBBLL.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBBLL\bin\Debug\LBBLL.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LBBLL\obj\Debug\LB.BLL.csprojResolveAssemblyReference.cache
+E:\技术学习\CAD\DEMO\LineBudget\LBBLL\obj\Debug\LBBLL.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBBLL\obj\Debug\LBBLL.pdb

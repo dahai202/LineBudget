@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\Arc.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\bmp.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\Circle.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\csv.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_按档距插井" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\C_按档距插井.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_按档距插杆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\C_按档距插杆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\doc.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawEllipse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DrawEllipse.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawEllipseArc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DrawEllipseArc.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawPoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DrawPoint.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawSpline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DrawSpline.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrawText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DrawText.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DsViewer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DsViewer.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DViewTW45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\DViewTW45.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dwg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\dwg.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\edit.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\exe.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\exit.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\gif.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\GPS.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_chm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\help_chm.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_kf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\help_kf.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_sj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\help_sj.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_url" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\help_url.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_vcd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\help_vcd.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="html" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\html.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\jpg.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JP柜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\JP柜.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\line.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\line1.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagnifyingGlass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\MagnifyingGlass.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\no.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\open.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\P.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\Pline.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polygon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\Polygon.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ppt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\ppt.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\rar.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="record__add__16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\record_(add)_16x16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\Rectang.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\save.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\txt.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\up.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WindowZoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\WindowZoom.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\xls.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\zip.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\ZoomE.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\ZoomP.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZoomR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\ZoomR.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\0.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\1.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\10.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\11.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\12.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\13.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\14.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\15.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\16.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\18.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\19.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\2.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\23.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\24.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\25.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\26.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\27.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\29.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\3.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\30.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\31.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\32.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\33.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\34.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\35.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\36.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\37.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\38.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\4.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\5.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\6.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\7.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\8.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\9.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\new.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="主要设备器材统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\主要设备器材统计.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="分类统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\分类统计.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删除跨越物" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\删除跨越物.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="制作设计说明书" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\制作设计说明书.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="刷新" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\刷新.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="单杆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\单杆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="变压器清单" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\变压器清单.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="图块管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\图块管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="地物符号管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\地物符号管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="型号管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\型号管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="基础" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\基础.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="增加" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\增加.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="增加导线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\增加导线.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="增加电缆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\增加电缆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="对地距离" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\对地距离.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导入excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\导入excel.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导入图纸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\导入图纸.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="导出gps数据" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\导出gps数据.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工程工作量统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\工程工作量统计.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工程线路管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\工程线路管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平断面图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\平断面图.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平断面图参数设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\平断面图参数设置.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="开关" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\开关.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="开关清单" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\开关清单.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="弧垂计算" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\弧垂计算.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="户外开关站" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\户外开关站.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批量中间" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\批量中间.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批量导入电缆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\批量导入电缆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批量插杆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\批量插杆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批量等分" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\批量等分.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批量连续" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\批量连续.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="指示器" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\指示器.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按档距插井" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\按档距插井.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按档距插杆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\按档距插杆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="接地" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\接地.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="插入图例" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\插入图例.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="插入杆塔" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\插入杆塔.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撤旧设备器材清单" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\撤旧设备器材清单.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="支架" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\支架.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="杆型清单" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\杆型清单.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="杆塔明细表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\杆塔明细表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="杆塔组装图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\杆塔组装图.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="杆塔选型管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\杆塔选型管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="材料模板管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\材料模板管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="材料管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\材料管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="材料统计" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\材料统计.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="标注设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\标注设置.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="框选统计材料" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\框选统计材料.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="框选缩放" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\框选缩放.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="桥架" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\桥架.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="添加拆除标志" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\添加拆除标志.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="熔断器" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\熔断器.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电杆导线清单" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电杆导线清单.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电缆头" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电缆头.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电缆开关箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电缆开关箱.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电缆明细表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电缆明细表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电缆材料统计表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电缆材料统计表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电缆沟" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电缆沟.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电缆管井明细表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\电缆管井明细表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="真空开关" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\真空开关.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="移动" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\移动.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="系统设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\系统设置.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制交叉跨越" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制交叉跨越.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制低压分支箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制低压分支箱.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制低压电缆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制低压电缆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制其他角担" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制其他角担.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制其他设备" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制其他设备.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制刀闸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制刀闸.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制变压器" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制变压器.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制变电站" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制变电站.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制地物" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制地物.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制开关" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制开关.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制戗杆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制戗杆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制拉桩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制拉桩.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制拉线" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制拉线.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制架空线路" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制架空线路.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制站室" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制站室.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制管井" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制管井.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担101.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担102.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担103" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担103.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担105.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担106" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担106.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担107.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制角担120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制角担120.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制跨越物" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制跨越物.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制避雷器" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制避雷器.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制配电表箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制配电表箱.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绘制高压电缆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绘制高压电缆.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绝缘子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\绝缘子.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计导线表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\统计导线表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计工程材料表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\统计工程材料表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计杆塔材料表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\统计杆塔材料表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="统计设备表" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\统计设备表.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="表单绘制线路" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\表单绘制线路.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="表箱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\表箱.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="装饰图块" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\装饰图块.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="计算两杆的距离" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\计算两杆的距离.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设备管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\设备管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设计成果导入" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\设计成果导入.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="超人软件" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\超人软件.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="跨越物符号管理" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\跨越物符号管理.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="重排编号" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\重排编号.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="防火墙" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\防火墙.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="隔离开关" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>ico\隔离开关.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

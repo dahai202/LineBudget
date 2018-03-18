@@ -1,0 +1,5 @@
+E:\技术学习\CAD\DEMO\LineBudget\LB.Setup\bin\Debug\LB.Setup.dll
+E:\技术学习\CAD\DEMO\LineBudget\LB.Setup\bin\Debug\LB.Setup.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LB.Setup\obj\Debug\LB.Setup.dll
+E:\技术学习\CAD\DEMO\LineBudget\LB.Setup\obj\Debug\LB.Setup.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LB.Setup\obj\Debug\LB.Setup.csprojResolveAssemblyReference.cache

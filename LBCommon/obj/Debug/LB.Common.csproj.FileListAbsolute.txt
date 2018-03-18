@@ -1,0 +1,9 @@
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\bin\Debug\LBCommon.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\bin\Debug\LBCommon.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\bin\Debug\X2Lib.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\bin\Debug\DotNetNuke.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\bin\Debug\X2Lib.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\obj\Debug\LB.Common.csprojResolveAssemblyReference.cache
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\obj\Debug\LBCommon.dll
+E:\技术学习\CAD\DEMO\LineBudget\LBCommon\obj\Debug\LBCommon.pdb

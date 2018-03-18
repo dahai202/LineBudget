@@ -1,0 +1,1901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LineBudget.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LineBudget" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LineBudget.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="11.5.0.0" publicKeyToken="C39C3242A43EEE2B" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.DWGTHUMBNAILLib.dll" size="8704">
+      <assemblyIdentity name="AxInterop.DWGTHUMBNAILLib" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>n5uweHliXoXP1Zz+TXHzW/CVhK0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MxDrawXLib.dll" size="40960">
+      <assemblyIdentity name="AxInterop.MxDrawXLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hg8R5wXmMtCl9SmG7DIFRyjiFJg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DotNetNuke.dll" size="1533952">
+      <assemblyIdentity name="DotNetNuke" version="5.6.1.238" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>cfWsLlw3ZMk1F34NNJ3R9WvZJKA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Eyefinder.dll" size="90112">
+      <assemblyIdentity name="Eyefinder" version="1.0.2.0" publicKeyToken="75B7EC17DD7C14C3" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>jAQeiRD/HvO5EJHsfh/YbD8qM+4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="225280">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.86.0.518" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9XW93DZjcLOtX5Qd6tMfN7TuZG8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MxDrawXLib.dll" size="290816">
+      <assemblyIdentity name="Interop.MxDrawXLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>uFZ71m2re7TNMZzARiUsHjIEGFU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LineBudget.exe" size="330240">
+      <assemblyIdentity name="LineBudget" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>29zPpxyok8GbHdqOydmL2Dxuruo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="X2Lib.dll" size="57344">
+      <assemblyIdentity name="X2Lib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8CZRDMfSPlLBeCvB4aNuwHQJP6Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Lib\AxInterop.MxDrawXLib.dll" size="40960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hg8R5wXmMtCl9SmG7DIFRyjiFJg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lib\DevComponents.DotNetBar2.dll" size="5005312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>obioptSit5MF1o67wYnFHlU+O2A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lib\Eyefinder.dll" size="90112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jAQeiRD/HvO5EJHsfh/YbD8qM+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lib\Interop.MxDrawXLib.dll" size="290816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uFZ71m2re7TNMZzARiUsHjIEGFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lib\WeifenLuo.WinFormsUI.Docking.dll" size="417792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ftqBlcE5f7M/japFoa6l0NBVwgA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\0.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dfKf3VvocKWNYPxjzsYEEwGPE5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\1.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>H5Imr1RHHhdEoIpdY70a2wyIxZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\10.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UlUmZMixQmZeaHkf+UX3Fwt50IQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\11.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zSpK0XFa5T2nOG5DtmQedjuuegY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\12.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>f5pBEKmhuYiglrLCImlwmofQtKs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\13.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>srewV5FgmDUyjPodixfFC+/tx04=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\14.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VH18rIaCkBsm8pizh6qC4xdmg1E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\15.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>IFlidQrFROPsYh00uOYywEUonhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\16.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CZ/BjUUcORcR1C7A8Y/IXCTO7RA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\18.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p8TnRRFcx5PTNKlrR7tlYNZG8wo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\19.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vbAFggu+qsmPWYG42pgtjJ6e5sc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\2.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PmKztnoaujQQlLI00e7Abj1coso=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\23.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>l6wrCVlm2Jz9q98lX+K98QLCCjs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\24.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0N9EUJjlhyCKfw7PDQP+2/9O0Tg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\25.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4yK5pB0+PiQKvrUDMy5EFvo5t9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\26.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>u2wWskTircWrjQCzsjq4LUn6Nkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\27.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>z0CW3hyAP2SDL2FK6qq7em45nWA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\29.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Rr8jdZ8m68mhPR1S4/vY22rJCqA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\3.bmp" size="938">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ztLVy0V9f7wBt+jRiIbKfqjbMCg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\30.bmp" size="938">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AQW1Oap1lhQx4VWZb11uGFOxQ0M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\31.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bODiDLkEZh67ZA8LCEsuEZ+xepM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\32.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PQr4dYSTQ2jROvsc2c8mlpWTKJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\33.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Gm/pZrMloHW6MQV8BXeAMbldpyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\34.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fcQ/TolQqGyzKZl2qMT3EaxEJ8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\35.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tAb5Ifr6e/GoCXybzXGTXBs9ZdQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\36.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Etjh0Sp3taQM9J9wk+5uK8iUfO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\37.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>i49QgcIOb1MS8IMsSxJXf7WlrxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\38.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PggEgHW8iuSrW/H2enip5/VT8jA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\4.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XkdD7D5ORRZgjuZaR2FMxjxJrYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\5.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>suy9YKZO3pwyr1ml1YmpKv+71xU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\6.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Yh9UkAKM566g/kjL8F99gz9+C7Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\7.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iyQ0TSDkegfAS5bR26eTQ8GdMio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\8.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+fo/egTsCLhuBIy9mHJIDaD4lsk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\9.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>h1Jr6aI/kDqIC7lCR73pDiGhYuk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\Arc.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>agFwch1wP1/7FixnhWxUGyu+qrk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\bmp.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EblKoH4WAIdRtXja0v2ssv3N5dA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\C_按档距插杆.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Rig4hGuz1R2HmXWmd9thwSu6A4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\C_按档距插井.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3IGVQKZ9925O3Pjkt7D6Hb+fBg0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\Circle.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zkQ4PZShX1H2tnuGCzwP62Rziw4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\csv.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4qAyCsAr+NR5fixemXhYFAdkluQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\doc.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2TAhan9lnzsKuIos4hB+OK3rcwI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DrawEllipse.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hdsFstsFwSvMxw8Bfewx4M4xA/A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DrawEllipseArc.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YEbk+8OjUDX4DR0rTNWxFUvVYeA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DrawPoint.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wJV/JgCed6X9Q9s855Aq+zpBepo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DrawSpline.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6e2amDFB5Sis9Ly92/NnEO7OUtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DrawText.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mQ/crPijXLYjLYTyV+OQRGjZjk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DsViewer.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>G8hLCAAq4Rn1CluBIVGzS97yN4o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\DViewTW45.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aAcRJsTca3w0ouOYhlht838CP34=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\dwg.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iPgHFnYxB9xeum2G7f7jhyCyr/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\edit.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/VKkx87iEkno6O9UMbyL3YCWD4g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\exe.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vHDvCafVF9DPjGkZ7q6WedGd/q0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\exit.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lzSAm9htQ6O9Op9GPF7QB/TYEhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\gif.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3eWtbPUUzQ2q3n8E/ePCUNsEUew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\GPS.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JcSwrw6gpZLbfV8WKsxHYWwbpLw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\help_chm.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qandsIzggre7CuNQDekYtI3fzdU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\help_kf.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aVOyZL89/dqDA6T6cK29/Rt87iQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\help_sj.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QdtdVUYUU8eItwXt1JrB2BE1Mf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\help_url.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uePiiR3ZCTF9m5WLwWbbzKx1xfU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\help_vcd.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ia8/LKlN8dnJm3skggWD2dNimXo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\html.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YZ23KdTNwmK9Pb8r5La0x3pgk70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\jpg.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Bz+zc2LH+o7fCtMBLB4AgJL9uNg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\JP柜.bmp" size="870">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>sRVjjvRkaqW7HmHL0LwaltN8zjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\line.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jb1TcjvymTEPiKo4K4Zy1VWAXWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\line1.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bMyz8WxWTKEdICICttUaD38+pxA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\MagnifyingGlass.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BM/pd2vfylpKnN5OpdzXjH/LQbo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\new.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aKFmtuEynMXl6+VjX3jIzNPeP2A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\no.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mnr8shMH9tPtBXEx2fAGFhbnibo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\open.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>02KeVl2dSIJ0YOG/rooUFnztpXI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\P.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+44PXjARNvS0hEngY7WcJ/2mF3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\Pline.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pkuGNhPKY7ucuoW773L9AWsxceE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\Polygon.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0r9LbUSp6qZSs99Mrg7QM1bcs/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\ppt.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hZ8sXYmCYaMUKwAU6OWoxMAVgPM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\rar.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UWvcgWbsEhn7ftF8cmNxLCr7siU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\Rectang.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>daf5M4Yzp5EW1cjxz/bmQP2flKE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\save.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eE4wDB2z7I/4G5H+Hr8o6wiiU1M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\txt.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8kFaNkUo7QeWtVq+EdjmqqDZu4w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\up.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NzDSuGAjL3W4SILLjx9F/alivW4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\WindowZoom.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5mJuSXSfNjrvI+0ev5XvzOXwKC0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\xls.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DO64oVNTuq1ZiSPBAOCpwK+Zu74=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\zip.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n859byzCLgolfqyeJgGd0pzeTs0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\ZoomE.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GpWt3AUL5DKVxzl4KXP5AeMtD5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\ZoomP.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ht7kF0omrIW/xK7xPXE96sSDBlM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\ZoomR.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>e9gFvk0a92tEkyMNRjyj0LiqFQc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\按档距插杆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yizof49p6I3ODM1zKJSSj1KznCY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\按档距插井.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8YaAmaaAROxOu/UDsggmbpE/q3E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\变压器清单.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CIXifZfJohdLX5OEXjmR3ZGhA4c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\标注设置.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Yiu6wVzbrD9fzb+LUq1Jem7ibiQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\表单绘制线路.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>fPzdYFfXmjiqisTnl5jwZH4+a6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\表箱.bmp" size="1142">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dOiEKoXc1oNw58tK43LNM/TQBfA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\材料管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GwHwXR9e8np2XJrMgX3oZNyUX6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\材料模板管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hcOXP2P+nZN84Xtx2t316/HDb6k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\材料统计.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7FO6BSw9PXX7MXBiMPRYCiSniS0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\插入杆塔.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p9kClch1WY7Dl9FQIjTAzaah27M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\插入图例.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>caQmWkDbYitdjJ8GP7DxykQ/oUw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\超人软件.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4L6pCm+pfbXMIKKO56ZtqCWRvcw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\撤旧设备器材清单.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ntDAJIPzEgfFFj+W8PxNqjX27oI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\单杆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>O2pJgjcM+ok3Vhp3Sq9w67Y60/Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\导出gps数据.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lC+7qWRCwIpkgGlbZZ5rP1LhTs4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\导入excel.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mjvK4820SWdwE6H4g9tR7Pzstpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\导入图纸.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tYHmaibTmy8oGh2YKvv+I78CmQE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\地物符号管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+ZDoFZYJbcsukrfAqLwIazn/hyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电杆导线清单.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pzPkE0N839Df8IrxZhaSWUMZXpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电缆材料统计表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>J+k/kH5R8babNeQE0mgzONn0Jc4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电缆沟.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Qb6R95H371Kb8+oG7Gp3195m9Ew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电缆管井明细表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3T9zxg9TMcgcGxBZskoy3coEOEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电缆开关箱.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ny8Sn/8qx1Sew+b9SZ1QclaC/pQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电缆明细表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>livV7blSIYvf3qn/AJUXhLfivsg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\电缆头.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qjvIswhWEl+oPAfewGdLvnUVKWI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\对地距离.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>32Zwlnr3Czln5+L/p4dbjsRUOPE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\防火墙.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>18Gk4hPGBV1WZDFm7iEzy1r/yj0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\分类统计.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pEvyinL/aWBqPcHdrW92TPiemBI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\杆塔明细表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n8UJnJ/CBuj+Dk3fSE/7w/PBPvk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\杆塔选型管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>guib1MTeusCW5iZt84oflRf15Rc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\杆塔组装图.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>46EiSBsTaBfq7u5iS7m7cb/0SDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\杆型清单.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>egYUimNPxbeS+2ZrfsvePKHP0fE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\隔离开关.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2Ml3yyWImE+bAo+yO9syqu5VT4Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\工程工作量统计.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ru5Y8UjnwBp+qLOF4DmmNfR3BiI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\工程线路管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pUT9duATtWw00qBiPHYPv6qqISM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\弧垂计算.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DXcpYHcdc6LnyIU2sPj3bCUd5CA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\户外开关站.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jPc9C2UA9ZEv5Eihri8R9NTcgdw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制避雷器.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>iUZfJgLalkLkzJB1MOoixpDsGE4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制变电站.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>07uYuelyy1/u0hRfG/ejJEAI2/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制变压器.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>klcx+xSCfyOh72o+M6fr5aK96t8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制刀闸.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DQm8YP6B+NdckSwfb9Ye0v5GEQs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制低压电缆.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7YUAcV3/z32N9kPbB54LbxcEJXs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制低压分支箱.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5oIivyWcrIvmlF0vj54vpLaYIq0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制地物.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2KezQW9LRfcTGWivA10EckN1HKY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制高压电缆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RWt7cVom7eDlJUcKD1ildRnEFGA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制管井.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>x2UASJuC1gZC6QNvJiR2oMqn/J0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制架空线路.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wYHoF4gVG2Df5zG1aR7EgqOzorQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制交叉跨越.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YAVI9TQ2q9o4GKI7c9q19IhgM/4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MI8NKvF9/g/OzN7hN2RXDNMBd3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担101.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qr8ZV8JFr+wmTC/zYwGMOV/4Nv4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担102.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uTXg9rjcrQ7LQRtgSTI2I4GnSeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担103.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>BrnlshLULZi27ArCmgxuqEQTZvM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担105.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RW3DvApB5+BeTQJ9NQkbekYwPow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担106.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GbowEy1+IXd6MlP6wfwAC4uDq7I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担107.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KApoKTx711+0C5Zc5zObVTDloIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制角担120.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zZvjGMQoZKBVtHy0GBG6YBDPe/Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制开关.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Hmnm3pgoVaYv0DSHbKQKMF6xFFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制跨越物.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uoY+OkAFJiX2mBniIhbJ38Xcqds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制拉线.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Xk6YdJ27jLc8Lyt++Gund+wjutU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制拉桩.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5p8b873X/fzhK9nHUtUG4JQnjJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制配电表箱.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>X+cwUqKabIntvMkF30s3DNqu/8A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制其他角担.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>q8ibzXVgRg1AZ+wMGYd8Y/M/aag=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制其他设备.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ro0kHoAnyK6+YjpC7ZSvtc9YFUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制戗杆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y9gd3pd8aAezdKVOBrqoYt/LBNI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绘制站室.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ymvmHfaRciyaj8AyXJZtyRyQqEA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\基础.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FSfmf7PQSBuVH0aWs0TwziqwqZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\计算两杆的距离.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N/NA21lka+LekFTg7UsftBTcXGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\接地.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0448Ir8USk5Aj4WZTNI1r87AD3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\绝缘子.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FQLygy1qS0MWDOT6764ifiLQuPk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\开关.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8uRkqaiAEh6YFsSsKF74xrOxugg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\开关清单.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>K5QcOA5nrBquateR8XhemYhCL8g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\跨越物符号管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>oiGvO+xuW60jCI9LNiktgsugynE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\框选缩放.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rZVHByIpbYrxWTwY1ZyaVQ55kr4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\框选统计材料.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>gMcbPhjrF2qSvq4TpwWsdQAs9Mo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\批量插杆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>CdaS7yubKyhZZANMZ9gDFldzv7g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\批量导入电缆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zh/0knXYHXLOMrs+FGRXvVZLqWQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\批量等分.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tRse8cVLTnhsndIJzV2tob+Ck24=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\批量连续.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HmJ+xLXKDH6pbZouh9+a+djlI18=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\批量中间.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MBrzaiwKHVvdxraP72xuhlnyGJo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\平断面图.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Tz8l79lG+Mu9A+78sV6pF6TAMF4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\平断面图参数设置.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4DJD889VPKIBH8/4PTH5rN8hgKU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\桥架.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UrS4D/mHwx00EdBSPkmdCt5P1us=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\熔断器.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Vs4Ny1TD7go6y2MKZQdBSE/i534=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\删除跨越物.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>U9eQbnten2yP6YkhR17TVUGWxCk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\设备管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>txU7kDbeMBMhl05q7h5NKlIPkXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\设计成果导入.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TQB5fMjQo6PCbHfxz2GJKIJd/Zs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\刷新.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LCeTVJG3dqtKBx2MIwy/6kbmeoc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\添加拆除标志.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4xBMb4Bi+l3pWiLeM8FOVj12syI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\统计导线表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nCghxHjs+Y8KsPzmN8T0hAF8Lzo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\统计杆塔材料表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Alcv96gzDt4RprKkO665aJk6ebU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\统计工程材料表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Xk5yF3hHSGL4mCCzX8puICvDw3U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\统计设备表.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WyV5BjRb0MKt8MYfEgA+6gaZ50U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\图块管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dNia8pD4COiXT5F/zoXpaEldTGc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\系统设置.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hTh8t96jSsdAfBjwqv4NlJ+qZ/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\型号管理.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>spy+nHCWc/XWxONiUHbGbYMPkSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\移动.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>blz/sgD5ziBfq8B95Xdh0GnXbVI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\增加.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lxvW2FRyeGADJlw9lYIUe8oLbx0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\增加导线.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lqZ/DIg8MTHjIZxBF9d2Ng/X400=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\增加电缆.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VW3ZMEwLA4t3i4fDlHOmjbbQPe0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\真空开关.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cdK57w4AsZionQnnxa8gUVLvV10=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\支架.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+jJAT2lM8pAfG6+azKVNlF9hZeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\指示器.bmp" size="823">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rq4VTE00bNvJMto094/craOaGt0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\制作设计说明书.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lCb9Quz6NqRk/IOa0TmtLylqWQ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\重排编号.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>swmx6Fppv3XApgrgmsMyB8EyXYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\主要设备器材统计.bmp" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VIatrIQ1cC1p7MUFoXEL58z5O+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Properties\ico\装饰图块.bmp" size="822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cuTmCdC1Sn77MC7a1nysIE+qUyo=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

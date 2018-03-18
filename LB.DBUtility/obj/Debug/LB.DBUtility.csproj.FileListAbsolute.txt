@@ -1,0 +1,5 @@
+E:\技术学习\CAD\DEMO\LineBudget\LB.DBUtility\bin\Debug\LB.DBUtility.dll
+E:\技术学习\CAD\DEMO\LineBudget\LB.DBUtility\bin\Debug\LB.DBUtility.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LB.DBUtility\obj\Debug\LB.DBUtility.dll
+E:\技术学习\CAD\DEMO\LineBudget\LB.DBUtility\obj\Debug\LB.DBUtility.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LB.DBUtility\obj\Debug\LB.DBUtility.csprojResolveAssemblyReference.cache

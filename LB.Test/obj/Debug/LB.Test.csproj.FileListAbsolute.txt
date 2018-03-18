@@ -1,0 +1,11 @@
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\bin\Debug\LB.Test.exe
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\bin\Debug\LB.Test.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\obj\Debug\LB.Test.csprojResolveAssemblyReference.cache
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\obj\Debug\LB.Test.Form1.resources
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\obj\Debug\LB.Test.Properties.Resources.resources
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\obj\Debug\LB.Test.csproj.GenerateResource.Cache
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\obj\Debug\LB.Test.exe
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\obj\Debug\LB.Test.pdb
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\bin\Debug\AxInterop.MxDrawXLib.dll
+E:\技术学习\CAD\DEMO\LineBudget\LB.Test\bin\Debug\Interop.MxDrawXLib.dll
